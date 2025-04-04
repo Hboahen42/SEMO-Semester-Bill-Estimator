@@ -18,7 +18,7 @@ A modern, user-friendly Python application for estimating your semester bill at 
 
 ## 📷 UI Preview
 
-![Preview Screenshot](images\Screenshot.png)
+![Preview Screenshot](images/Screenshot.png)
 
 ---
 
