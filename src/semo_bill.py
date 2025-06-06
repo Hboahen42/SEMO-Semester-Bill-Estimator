@@ -1,5 +1,6 @@
 # Import the Dear PyGui module using an alias
 import dearpygui.dearpygui as dpg
+import os
 
 # Define the function that performs the semester bill calculation
 def calculate_bill():
@@ -91,7 +92,8 @@ with dpg.theme(tag="dark_theme"):
 
 # Load and register custom font
 with dpg.font_registry():
-    default_font = dpg.add_font("fonts\\SF-Pro-Display-Regular.otf", 20)
+    font_path = os.path.join(os.path.dirname(__file__), "..", "fonts", "SF-Pro-Display-Regular.otf")
+    default_font = dpg.add_font(font_path, 20)
 
 # Main window layout and input fields
 with dpg.window(label="SEMO Semester Bill Calculator", tag="main_window", width=700, height=750):
