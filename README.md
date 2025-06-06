@@ -26,8 +26,8 @@ A modern, user-friendly Python application for estimating your semester bill at 
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Hboahen42/semo_bill.git
-   cd semo_bill
+   git clone https://github.com/Hboahen42/SEMO-Semester-Bill-Estimator.git
+   cd SEMO-Semester-Bill-Estimator
    ```
 
 2. Install the required dependency:
